@@ -1,5 +1,5 @@
 import 'package:dio/dio.dart';
-import 'package:iraj/productions.dart';
+
 import 'package:flutter/material.dart';
 
 void main() => runApp(MyApp());
@@ -52,7 +52,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 width: MediaQuery.of(context).size.width / 2,
               ),
               Container(
-                colour: Colour.fromARGB(255, 63, 81, 181),
+                color: Color.fromARGB(255, 63, 81, 181),
                 margin: EdgeInsets.all(10),
                 padding: EdgeInsets.symmetric(horizontal: 10, vertical: 5),
                 child: Text(
